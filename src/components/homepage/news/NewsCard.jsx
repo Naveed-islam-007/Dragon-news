@@ -41,7 +41,7 @@ const NewsCard = ({ n }) => {
 
       <div className='flex justify-between items-center px-4 pb-4'>
         <div>⭐ {n.rating?.number}</div>
-        <Link href={`/main/news/${n._id}`}>
+        <Link href={`/news/${n._id}`}>
           <button className='btn'>See Details</button>
         </Link>
       </div>

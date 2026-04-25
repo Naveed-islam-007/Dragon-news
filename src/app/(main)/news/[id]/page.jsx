@@ -48,7 +48,7 @@ const NewsDetailsPage = async ({ params }) => {
 
         <div className='flex justify-between items-center px-4 pb-4'>
           <div>⭐ {news.rating?.number}</div>
-          <Link href={`/main/news/category/${news.category_id}`}>
+          <Link href={`/`}>
             <button className='btn'>Back to Category</button>
           </Link>
         </div>
